@@ -1,0 +1,5 @@
+[console_scripts]
+odometry = vector3_subscribe.odometry:main
+pub = vector3_subscribe.vec_pub:main
+subscriber = vector3_subscribe.vec:main
+

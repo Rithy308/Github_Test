@@ -1,0 +1,27 @@
+[1.173s] Invoking command in '/home/thy/aifarm_ws/build/vector3_subscribe': PYTHONPATH=/home/thy/aifarm_ws/build/vector3_subscribe/prefix_override:/home/thy/aifarm_ws/install/vector3_subscribe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/vector3_subscribe/build --no-deps install_data
+[1.476s] running develop
+[1.687s] running egg_info
+[1.687s] creating vector3_subscribe.egg-info
+[1.687s] writing vector3_subscribe.egg-info/PKG-INFO
+[1.687s] writing dependency_links to vector3_subscribe.egg-info/dependency_links.txt
+[1.687s] writing entry points to vector3_subscribe.egg-info/entry_points.txt
+[1.688s] writing requirements to vector3_subscribe.egg-info/requires.txt
+[1.688s] writing top-level names to vector3_subscribe.egg-info/top_level.txt
+[1.688s] writing manifest file 'vector3_subscribe.egg-info/SOURCES.txt'
+[1.733s] reading manifest file 'vector3_subscribe.egg-info/SOURCES.txt'
+[1.734s] writing manifest file 'vector3_subscribe.egg-info/SOURCES.txt'
+[1.781s] running build_ext
+[1.782s] Creating /home/thy/aifarm_ws/install/vector3_subscribe/lib/python3.8/site-packages/site.py
+[1.788s] Creating /home/thy/aifarm_ws/install/vector3_subscribe/lib/python3.8/site-packages/vector3-subscribe.egg-link (link to .)
+[1.790s] Installing odometry script to /home/thy/aifarm_ws/install/vector3_subscribe/lib/vector3_subscribe
+[1.790s] Installing pub script to /home/thy/aifarm_ws/install/vector3_subscribe/lib/vector3_subscribe
+[1.790s] Installing subscriber script to /home/thy/aifarm_ws/install/vector3_subscribe/lib/vector3_subscribe
+[1.790s] 
+[1.790s] Installed /home/thy/aifarm_ws/build/vector3_subscribe
+[1.790s] running install_data
+[1.790s] creating /home/thy/aifarm_ws/install/vector3_subscribe/share/ament_index
+[1.790s] creating /home/thy/aifarm_ws/install/vector3_subscribe/share/ament_index/resource_index
+[1.790s] creating /home/thy/aifarm_ws/install/vector3_subscribe/share/ament_index/resource_index/packages
+[1.790s] copying resource/vector3_subscribe -> /home/thy/aifarm_ws/install/vector3_subscribe/share/ament_index/resource_index/packages
+[1.791s] copying package.xml -> /home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe
+[1.848s] Invoked command in '/home/thy/aifarm_ws/build/vector3_subscribe' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/vector3_subscribe/prefix_override:/home/thy/aifarm_ws/install/vector3_subscribe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/vector3_subscribe/build --no-deps install_data

@@ -1,0 +1,16 @@
+[1.176s] Invoking command in '/home/thy/aifarm_ws/build/trailobot_description': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/trailobot_description/build --no-deps install_data
+[1.484s] running develop
+[1.689s] running egg_info
+[1.690s] writing trailobot_description.egg-info/PKG-INFO
+[1.690s] writing dependency_links to trailobot_description.egg-info/dependency_links.txt
+[1.691s] writing entry points to trailobot_description.egg-info/entry_points.txt
+[1.691s] writing requirements to trailobot_description.egg-info/requires.txt
+[1.691s] writing top-level names to trailobot_description.egg-info/top_level.txt
+[1.731s] reading manifest file 'trailobot_description.egg-info/SOURCES.txt'
+[1.732s] writing manifest file 'trailobot_description.egg-info/SOURCES.txt'
+[1.770s] running build_ext
+[1.772s] Creating /home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages/trailobot-description.egg-link (link to .)
+[1.775s] 
+[1.775s] Installed /home/thy/aifarm_ws/build/trailobot_description
+[1.775s] running install_data
+[1.847s] Invoked command in '/home/thy/aifarm_ws/build/trailobot_description' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/trailobot_description/build --no-deps install_data

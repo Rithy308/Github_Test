@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/vector3_subscribe
+vector3_subscribe/__init__.py
+vector3_subscribe/odometry.py
+vector3_subscribe.egg-info/PKG-INFO
+vector3_subscribe.egg-info/SOURCES.txt
+vector3_subscribe.egg-info/dependency_links.txt
+vector3_subscribe.egg-info/entry_points.txt
+vector3_subscribe.egg-info/requires.txt
+vector3_subscribe.egg-info/top_level.txt
+vector3_subscribe.egg-info/zip-safe

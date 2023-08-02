@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<robot name="AMR" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<!-- <xacro:property name="body_color" value="Gazebo/Silver" /> -->
+
+<!-- <gazebo>
+  <plugin name="control" filename="libgazebo_ros_control.so"/>
+</gazebo> -->
+<gazebo reference="base_link">
+  <material>Gazebo/Yellow</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<!-- <gazebo reference="Dept_Camera_1">
+  <material>Gazebo/Silver</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo> -->
+
+<gazebo reference="Wheel_left_1">
+  <material>Gazebo/Black</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="Wheel_right_1">
+  <material>Gazebo/Black</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="caster_back_right_1">
+  <material>Gazebo/Red</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="caster_back_left_1">
+  <material>Gazebo/Red</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="caster_front_right_1">
+  <material>Gazebo/Red</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="caster_front_left_1">
+  <material>Gazebo/Red</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="storage_plate_1">
+  <material>Gazebo/Red</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<!-- <gazebo reference="laser_frame">
+  <material>Gazebo/Red</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo> -->
+
+</robot>

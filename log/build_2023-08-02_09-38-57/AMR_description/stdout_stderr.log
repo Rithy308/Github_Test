@@ -1,0 +1,54 @@
+running develop
+running egg_info
+creating AMR_description.egg-info
+writing AMR_description.egg-info/PKG-INFO
+writing dependency_links to AMR_description.egg-info/dependency_links.txt
+writing entry points to AMR_description.egg-info/entry_points.txt
+writing requirements to AMR_description.egg-info/requires.txt
+writing top-level names to AMR_description.egg-info/top_level.txt
+writing manifest file 'AMR_description.egg-info/SOURCES.txt'
+reading manifest file 'AMR_description.egg-info/SOURCES.txt'
+writing manifest file 'AMR_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages/site.py
+Creating /home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages/AMR-description.egg-link (link to .)
+
+Installed /home/thy/aifarm_ws/build/AMR_description
+running install_data
+creating /home/thy/aifarm_ws/install/AMR_description/share/ament_index
+creating /home/thy/aifarm_ws/install/AMR_description/share/ament_index/resource_index
+creating /home/thy/aifarm_ws/install/AMR_description/share/ament_index/resource_index/packages
+copying resource/AMR_description -> /home/thy/aifarm_ws/install/AMR_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description
+creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+copying launch/gazebo.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+copying launch/display.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+copying launch/navigation.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+copying launch/rplidar.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+copying launch/joystick.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/gazebo_control.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/ros2_control.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/AMR.trans -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/depth_camera.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/lidar.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/AMR.gazebo -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/AMR.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+copying urdf/materials.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/caster_back_right_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/storage_plate_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/Wheel_left_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/Dept_Camera_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/base_link.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/laser_frame.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/caster_front_right_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/Wheel_right_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/caster_back_left_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+copying meshes/caster_front_left_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+copying config/gazebo_params.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+copying config/display.rviz -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+copying config/joystick.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+copying config/nav2_params.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+copying config/mapper_params_online_async.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config

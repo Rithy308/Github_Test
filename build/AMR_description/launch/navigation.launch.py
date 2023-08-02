@@ -1,0 +1,1 @@
+/home/thy/aifarm_ws/src/AMR_description/launch/navigation.launch.py

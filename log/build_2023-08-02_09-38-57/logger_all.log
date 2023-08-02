@@ -1,0 +1,239 @@
+[0.283s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.283s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f41b3cf66d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f41b3cf66d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f41b3cf6c10>)
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.304s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thy/aifarm_ws'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/AMR_description) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/AMR_description' with type 'ros.ament_python' and name 'AMR_description'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/trailobot_description) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trailobot_description' with type 'ros.ament_python' and name 'trailobot_description'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/vector3_subscribe) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vector3_subscribe' with type 'ros.ament_python' and name 'vector3_subscribe'
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/thy/aifarm_ws/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/foxy
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'AMR_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'AMR_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thy/aifarm_ws/build/AMR_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thy/aifarm_ws/install/AMR_description', 'merge_install': False, 'path': '/home/thy/aifarm_ws/src/AMR_description', 'symlink_install': True, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'trailobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'trailobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thy/aifarm_ws/build/trailobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thy/aifarm_ws/install/trailobot_description', 'merge_install': False, 'path': '/home/thy/aifarm_ws/src/trailobot_description', 'symlink_install': True, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'vector3_subscribe' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'vector3_subscribe' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thy/aifarm_ws/build/vector3_subscribe', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thy/aifarm_ws/install/vector3_subscribe', 'merge_install': False, 'path': '/home/thy/aifarm_ws/src/vector3_subscribe', 'symlink_install': True, 'test_result_base': None}
+[0.409s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.412s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thy/aifarm_ws/src/AMR_description' with build type 'ament_python'
+[0.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('AMR_description', 'ament_prefix_path')
+[0.415s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/hook/ament_prefix_path.ps1'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/hook/ament_prefix_path.dsv'
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/hook/ament_prefix_path.sh'
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thy/aifarm_ws/src/trailobot_description' with build type 'ament_python'
+[0.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('trailobot_description', 'ament_prefix_path')
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/hook/ament_prefix_path.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/hook/ament_prefix_path.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/hook/ament_prefix_path.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thy/aifarm_ws/src/vector3_subscribe' with build type 'ament_python'
+[0.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('vector3_subscribe', 'ament_prefix_path')
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/hook/ament_prefix_path.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/hook/ament_prefix_path.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/hook/ament_prefix_path.sh'
+[0.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.637s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thy/aifarm_ws/src/AMR_description'
+[0.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.831s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thy/aifarm_ws/src/trailobot_description'
+[0.833s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.833s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.064s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thy/aifarm_ws/src/vector3_subscribe'
+[1.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thy/aifarm_ws/build/AMR_description': PYTHONPATH=/home/thy/aifarm_ws/build/AMR_description/prefix_override:/home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/AMR_description/build --no-deps install_data
+[1.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thy/aifarm_ws/build/trailobot_description': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/trailobot_description/build --no-deps install_data
+[1.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thy/aifarm_ws/build/vector3_subscribe': PYTHONPATH=/home/thy/aifarm_ws/build/vector3_subscribe/prefix_override:/home/thy/aifarm_ws/install/vector3_subscribe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/vector3_subscribe/build --no-deps install_data
+[2.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('AMR_description', 'pythonpath_develop')
+[2.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/build/AMR_description/share/AMR_description/hook/pythonpath_develop.ps1'
+[2.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thy/aifarm_ws/build/AMR_description' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/AMR_description/prefix_override:/home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/AMR_description/build --no-deps install_data
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/build/AMR_description/share/AMR_description/hook/pythonpath_develop.dsv'
+[2.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/build/AMR_description/share/AMR_description/hook/pythonpath_develop.sh'
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/AMR_description' for CMake module files
+[2.243s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/AMR_description' for CMake config files
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/AMR_description/lib'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/AMR_description/bin'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/AMR_description/lib/pkgconfig/AMR_description.pc'
+[2.244s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages'
+[2.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('AMR_description', 'pythonpath')
+[2.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/hook/pythonpath.ps1'
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/hook/pythonpath.dsv'
+[2.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/hook/pythonpath.sh'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/AMR_description/bin'
+[2.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(AMR_description)
+[2.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/package.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/package.dsv'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/package.sh'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/package.bash'
+[2.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/AMR_description/share/AMR_description/package.zsh'
+[2.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thy/aifarm_ws/install/AMR_description/share/colcon-core/packages/AMR_description)
+[2.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('trailobot_description', 'pythonpath_develop')
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/build/trailobot_description/share/trailobot_description/hook/pythonpath_develop.ps1'
+[2.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thy/aifarm_ws/build/trailobot_description' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/trailobot_description/build --no-deps install_data
+[2.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/build/trailobot_description/share/trailobot_description/hook/pythonpath_develop.dsv'
+[2.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/build/trailobot_description/share/trailobot_description/hook/pythonpath_develop.sh'
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/trailobot_description' for CMake module files
+[2.273s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/trailobot_description' for CMake config files
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/trailobot_description/lib'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/trailobot_description/bin'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/trailobot_description/lib/pkgconfig/trailobot_description.pc'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages'
+[2.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('trailobot_description', 'pythonpath')
+[2.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/hook/pythonpath.ps1'
+[2.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/hook/pythonpath.dsv'
+[2.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/hook/pythonpath.sh'
+[2.276s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/trailobot_description/bin'
+[2.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trailobot_description)
+[2.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/package.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/package.dsv'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/package.sh'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/package.bash'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/trailobot_description/share/trailobot_description/package.zsh'
+[2.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thy/aifarm_ws/install/trailobot_description/share/colcon-core/packages/trailobot_description)
+[2.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('vector3_subscribe', 'pythonpath_develop')
+[2.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/build/vector3_subscribe/share/vector3_subscribe/hook/pythonpath_develop.ps1'
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thy/aifarm_ws/build/vector3_subscribe' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/vector3_subscribe/prefix_override:/home/thy/aifarm_ws/install/vector3_subscribe/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/vector3_subscribe/build --no-deps install_data
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/build/vector3_subscribe/share/vector3_subscribe/hook/pythonpath_develop.dsv'
+[2.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/build/vector3_subscribe/share/vector3_subscribe/hook/pythonpath_develop.sh'
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/vector3_subscribe' for CMake module files
+[2.284s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/vector3_subscribe' for CMake config files
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/vector3_subscribe/lib'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/vector3_subscribe/bin'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/vector3_subscribe/lib/pkgconfig/vector3_subscribe.pc'
+[2.285s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/vector3_subscribe/lib/python3.8/site-packages'
+[2.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('vector3_subscribe', 'pythonpath')
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/hook/pythonpath.ps1'
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/hook/pythonpath.dsv'
+[2.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/hook/pythonpath.sh'
+[2.287s] Level 1:colcon.colcon_core.environment:checking '/home/thy/aifarm_ws/install/vector3_subscribe/bin'
+[2.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vector3_subscribe)
+[2.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/package.ps1'
+[2.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/package.dsv'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/package.sh'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/package.bash'
+[2.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/thy/aifarm_ws/install/vector3_subscribe/share/vector3_subscribe/package.zsh'
+[2.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thy/aifarm_ws/install/vector3_subscribe/share/colcon-core/packages/vector3_subscribe)
+[2.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.290s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.295s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.295s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.295s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.324s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.325s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thy/aifarm_ws/install/local_setup.ps1'
+[2.326s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thy/aifarm_ws/install/_local_setup_util_ps1.py'
+[2.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thy/aifarm_ws/install/setup.ps1'
+[2.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thy/aifarm_ws/install/local_setup.sh'
+[2.329s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thy/aifarm_ws/install/_local_setup_util_sh.py'
+[2.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thy/aifarm_ws/install/setup.sh'
+[2.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thy/aifarm_ws/install/local_setup.bash'
+[2.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thy/aifarm_ws/install/setup.bash'
+[2.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thy/aifarm_ws/install/local_setup.zsh'
+[2.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thy/aifarm_ws/install/setup.zsh'

@@ -1,0 +1,56 @@
+[1.162s] Invoking command in '/home/thy/aifarm_ws/build/AMR_description': PYTHONPATH=/home/thy/aifarm_ws/build/AMR_description/prefix_override:/home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/AMR_description/build --no-deps install_data
+[1.479s] running develop
+[1.654s] running egg_info
+[1.654s] creating AMR_description.egg-info
+[1.654s] writing AMR_description.egg-info/PKG-INFO
+[1.654s] writing dependency_links to AMR_description.egg-info/dependency_links.txt
+[1.654s] writing entry points to AMR_description.egg-info/entry_points.txt
+[1.655s] writing requirements to AMR_description.egg-info/requires.txt
+[1.655s] writing top-level names to AMR_description.egg-info/top_level.txt
+[1.656s] writing manifest file 'AMR_description.egg-info/SOURCES.txt'
+[1.690s] reading manifest file 'AMR_description.egg-info/SOURCES.txt'
+[1.690s] writing manifest file 'AMR_description.egg-info/SOURCES.txt'
+[1.726s] running build_ext
+[1.726s] Creating /home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages/site.py
+[1.728s] Creating /home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages/AMR-description.egg-link (link to .)
+[1.729s] 
+[1.729s] Installed /home/thy/aifarm_ws/build/AMR_description
+[1.729s] running install_data
+[1.729s] creating /home/thy/aifarm_ws/install/AMR_description/share/ament_index
+[1.729s] creating /home/thy/aifarm_ws/install/AMR_description/share/ament_index/resource_index
+[1.729s] creating /home/thy/aifarm_ws/install/AMR_description/share/ament_index/resource_index/packages
+[1.729s] copying resource/AMR_description -> /home/thy/aifarm_ws/install/AMR_description/share/ament_index/resource_index/packages
+[1.730s] copying package.xml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description
+[1.730s] creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+[1.730s] copying launch/gazebo.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+[1.730s] copying launch/display.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+[1.730s] copying launch/navigation.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+[1.731s] copying launch/rplidar.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+[1.731s] copying launch/joystick.launch.py -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/launch
+[1.732s] creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.732s] copying urdf/gazebo_control.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.732s] copying urdf/ros2_control.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.732s] copying urdf/AMR.trans -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.732s] copying urdf/depth_camera.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.733s] copying urdf/lidar.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.733s] copying urdf/AMR.gazebo -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.733s] copying urdf/AMR.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.733s] copying urdf/materials.xacro -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/urdf
+[1.733s] creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.733s] copying meshes/caster_back_right_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.733s] copying meshes/storage_plate_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.734s] copying meshes/Wheel_left_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.735s] copying meshes/Dept_Camera_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.738s] copying meshes/base_link.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.740s] copying meshes/laser_frame.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.743s] copying meshes/caster_front_right_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.743s] copying meshes/Wheel_right_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.743s] copying meshes/caster_back_left_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.743s] copying meshes/caster_front_left_1.stl -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/meshes
+[1.744s] creating /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+[1.744s] copying config/gazebo_params.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+[1.744s] copying config/display.rviz -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+[1.744s] copying config/joystick.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+[1.744s] copying config/nav2_params.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+[1.744s] copying config/mapper_params_online_async.yaml -> /home/thy/aifarm_ws/install/AMR_description/share/AMR_description/config
+[1.823s] Invoked command in '/home/thy/aifarm_ws/build/AMR_description' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/AMR_description/prefix_override:/home/thy/aifarm_ws/install/AMR_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/thy/aifarm_ws/build/AMR_description/build --no-deps install_data

@@ -1,0 +1,30 @@
+[1.831s] Invoking command in '/home/thy/aifarm_ws/build/trailobot_description': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/thy/aifarm_ws/build/trailobot_description/build
+[2.026s] running develop
+[2.202s] Removing /home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages/trailobot-description.egg-link (link to .)
+[2.217s] Invoked command in '/home/thy/aifarm_ws/build/trailobot_description' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/thy/aifarm_ws/build/trailobot_description/build
+[2.220s] Invoking command in '/home/thy/aifarm_ws/src/trailobot_description': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trailobot_description build --build-base /home/thy/aifarm_ws/build/trailobot_description/build install --record /home/thy/aifarm_ws/build/trailobot_description/install.log --install-scripts $base/lib/trailobot_description --single-version-externally-managed
+[2.402s] running egg_info
+[2.402s] writing ../../build/trailobot_description/trailobot_description.egg-info/PKG-INFO
+[2.402s] writing dependency_links to ../../build/trailobot_description/trailobot_description.egg-info/dependency_links.txt
+[2.402s] writing entry points to ../../build/trailobot_description/trailobot_description.egg-info/entry_points.txt
+[2.402s] writing requirements to ../../build/trailobot_description/trailobot_description.egg-info/requires.txt
+[2.403s] writing top-level names to ../../build/trailobot_description/trailobot_description.egg-info/top_level.txt
+[2.517s] reading manifest file '../../build/trailobot_description/trailobot_description.egg-info/SOURCES.txt'
+[2.529s] writing manifest file '../../build/trailobot_description/trailobot_description.egg-info/SOURCES.txt'
+[2.530s] running build
+[2.530s] running build_py
+[2.530s] creating /home/thy/aifarm_ws/build/trailobot_description/build
+[2.530s] creating /home/thy/aifarm_ws/build/trailobot_description/build/lib
+[2.530s] creating /home/thy/aifarm_ws/build/trailobot_description/build/lib/trailobot_description
+[2.530s] copying trailobot_description/__init__.py -> /home/thy/aifarm_ws/build/trailobot_description/build/lib/trailobot_description
+[2.530s] running install
+[2.530s] running install_lib
+[2.531s] creating /home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages/trailobot_description
+[2.531s] copying /home/thy/aifarm_ws/build/trailobot_description/build/lib/trailobot_description/__init__.py -> /home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages/trailobot_description
+[2.532s] byte-compiling /home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages/trailobot_description/__init__.py to __init__.cpython-38.pyc
+[2.532s] running install_data
+[2.533s] running install_egg_info
+[2.534s] Copying ../../build/trailobot_description/trailobot_description.egg-info to /home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages/trailobot_description-0.0.0-py3.8.egg-info
+[2.542s] running install_scripts
+[2.555s] writing list of installed files to '/home/thy/aifarm_ws/build/trailobot_description/install.log'
+[2.571s] Invoked command in '/home/thy/aifarm_ws/src/trailobot_description' returned '0': PYTHONPATH=/home/thy/aifarm_ws/build/trailobot_description/prefix_override:/home/thy/aifarm_ws/install/trailobot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trailobot_description build --build-base /home/thy/aifarm_ws/build/trailobot_description/build install --record /home/thy/aifarm_ws/build/trailobot_description/install.log --install-scripts $base/lib/trailobot_description --single-version-externally-managed
